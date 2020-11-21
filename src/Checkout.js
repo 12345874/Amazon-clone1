@@ -18,7 +18,7 @@ function Checkout() {
                 />
                 <div>
                     <h2 className="checkout__title">
-                        Your Shopping Basket
+                        Your Shopping Basket is here...
                         <FlipMove>
                             {basket.map(item => (
                                 <CheckoutProduct
@@ -36,6 +36,7 @@ function Checkout() {
             <div className="checkout__right">
                 <Subtotal />
             </div>
+            
         </div>
     )
 }
